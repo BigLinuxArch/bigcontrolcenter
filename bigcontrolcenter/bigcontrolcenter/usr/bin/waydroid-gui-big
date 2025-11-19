@@ -1,0 +1,4 @@
+#!/bin/bash 
+
+cd /usr/share/bigbashview/bcc/apps/waydroid/
+bigbashview index.sh.htm -i icon.png -s 780x640

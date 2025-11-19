@@ -1,0 +1,10 @@
+[Trigger]
+Type = Path
+Operation = Remove
+
+Target = usr/bin/bigcontrolcenter
+
+[Action]
+Description = Automatic hide apps
+When = PreTransaction
+Exec = /usr/bin/bigcontrolcenter-menu-manager restore
